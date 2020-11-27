@@ -10,6 +10,7 @@ const Child2 = () => {
             <button onClick = {() => {dispatch("INCREMENT")}} >Increment</button>
             <button onClick = {() => {dispatch("DECREMENT")}} >Decrement</button>
         </div>
+        
     )
 }
 export default Child2;
