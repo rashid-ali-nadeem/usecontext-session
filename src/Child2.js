@@ -7,8 +7,8 @@ const Child2 = () => {
     return (
         <div>
             <h2>Value in Counter Reducer is {state} </h2>
-            <button onClick = {() => {dispatch("INCREMENT")}} >Increment</button>
-            <button onClick = {() => {dispatch("DECREMENT")}} >Decrement</button>
+            <button onClick = {() => {dispatch("INCREMENT")}} >Increment in Value</button>
+            <button onClick = {() => {dispatch("DECREMENT")}} >Decrement in Value</button>
         </div>
     )
 }
